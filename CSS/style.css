@@ -43,4 +43,24 @@ body {
   margin-block-end: 20px;
 }
 
+/* elementos del footer con subs*/
+footer {
+  background-color: #b7999c;
+  height: 250px;
+  bottom: 0;
+  left: 0;
+}
+footer .elementosfooter {
+  margin-inline: 30px;
+}
+footer .foot {
+  margin-block-end: 10px;
+}
+footer .botonEnviar {
+  margin: auto;
+}
+footer .botonEnviar .btn {
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */

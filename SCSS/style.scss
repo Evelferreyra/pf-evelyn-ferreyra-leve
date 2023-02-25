@@ -45,5 +45,31 @@ padding: 10px;
 }
 .separacion-card {
     margin-block-end: 20px;
+    
+}
+
+/* elementos del footer con subs*/
+footer {
+    
+    background-color: #b7999c;
+    height: 250px;
+    bottom: 0;
+    left: 0;
+
+
+    .elementosfooter {
+   margin-inline: 30px;
+    }
+    .foot {
+        margin-block-end: 10px;
+    }
+    .botonEnviar{
+        margin:auto;
+
+        .btn{
+            color: black;
+        }
+
+    }
 }
 
