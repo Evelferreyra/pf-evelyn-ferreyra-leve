@@ -36,6 +36,11 @@ body {
 
 .item {
   margin: 20px;
+  padding: 10px;
+}
+
+.separacion-card {
+  margin-block-end: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
