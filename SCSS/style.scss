@@ -15,7 +15,6 @@ body {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    height: 70px;
     font-size: 18px;
     font-weight: bold;
 
@@ -26,4 +25,8 @@ body {
     .nav-link:hover {
         color: #b7999c;
     }
+}
+/* carrousel */
+.slide img {
+    height: 350px;
 }
