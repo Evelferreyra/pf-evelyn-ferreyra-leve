@@ -1,0 +1,25 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-dark {
+  background-color: black;
+}
+
+.items-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 70px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.items-texto .color-link:link {
+  color: white;
+}
+.items-texto .nav-link:hover {
+  color: #b7999c;
+}
+
+/*# sourceMappingURL=style.css.map */
