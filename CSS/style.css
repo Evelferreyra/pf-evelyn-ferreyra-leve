@@ -46,21 +46,38 @@ body {
 /* elementos del footer con subs*/
 footer {
   background-color: #b7999c;
-  height: 250px;
+  height: 150px;
   bottom: 0;
   left: 0;
 }
-footer .elementosfooter {
+footer .alineacionapps {
+  display: flex;
+  justify-content: center;
+}
+footer .appsImg {
+  width: 50px;
+  margin: 8px;
+}
+footer .textfooter {
+  text-align: center;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* FORMULARIO DE SUBS*/
+.formulario {
+  background-color: black;
+  height: 250px;
+}
+.formulario .elementosfooter {
   margin-inline: 30px;
 }
-footer .foot {
+.formulario .foot {
   margin-block-end: 10px;
 }
-footer .botonEnviar {
+.formulario .botonEnviar {
   margin: auto;
-}
-footer .botonEnviar .btn {
-  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
