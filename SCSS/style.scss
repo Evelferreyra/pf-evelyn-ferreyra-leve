@@ -1,5 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
+    position: relative;
+    padding-bottom: 150px;
 }
 
 
@@ -57,8 +59,10 @@ footer {
 
     background-color: #b7999c;
     height: 150px;
+    width: 100%;
+    position: absolute;
     bottom: 0;
-    left: 0;
+    
 
     .alineacionapps {
         display: flex;
@@ -112,17 +116,58 @@ footer {
         text-align: center;
 
     }
-    .textosub{
-    color: #8c7a6b;
-    font-size: 17px;
-    text-align: start;
+
+    .textosub {
+        color: #8c7a6b;
+        font-size: 17px;
+        text-align: start;
 
     }
 
-    .mundo{
+    .mundo {
         color: #b8336a;
     }
-    .moda{
+
+    .moda {
         color: #a675a1;
     }
+}
+
+/*PAGINA CONTACTO*/
+.contacto {
+    background-color: #b7999c;
+
+}
+
+.formcont {
+    width: 450px;
+    height: 490px;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+}
+.iconoGris{
+width: 100px;
+margin: auto;
+display: block;
+margin-bottom: 15px;
+}
+.alineacionapps {
+    display: flex;
+    justify-content: center;
+}
+
+.appsImg {
+    width: 50px;
+    margin: 8px;
+}
+.prueba {
+    display: flex;
+    
+}
+.contenidoContacto{
+    text-align: center;
+    background: #8c7a6b;
 }
