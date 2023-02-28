@@ -109,22 +109,24 @@ footer .textfooter {
   margin-left: 30px;
   margin-right: 30px;
 }
-.contenidoNovedades .tituloNov {
-  color: #a675a1;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-}
-.contenidoNovedades .textosub {
-  color: #8c7a6b;
-  font-size: 17px;
-  text-align: start;
-}
 .contenidoNovedades .mundo {
   color: #b8336a;
 }
 .contenidoNovedades .moda {
   color: #a675a1;
+}
+
+.tituloNov {
+  color: #a675a1;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textosub {
+  color: #8c7a6b;
+  font-size: 17px;
+  text-align: start;
 }
 
 /*PAGINA CONTACTO*/
@@ -175,6 +177,26 @@ footer .textfooter {
   margin-left: 50px;
   margin-top: 100px;
   margin-bottom: 30px;
+}
+
+/* tienda */
+.maintienda {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.conttienda {
+  display: flex;
+  margin: auto;
+}
+
+.cardtienda {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
