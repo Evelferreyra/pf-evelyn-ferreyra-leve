@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+$title-sometext-color: #b8336a;
+$sub-title-color: #8c7a6b;
+$background-color-footnav: black;
 
 
 
@@ -145,10 +148,13 @@ footer {
     }
 }
 .tituloNov {
-    color: #a675a1;
+    color: white;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    border-radius: 20px;
+    background-color: $title-sometext-color;
+    padding: 20px;
 
 }
 
@@ -231,4 +237,8 @@ margin-bottom: 20px;
     margin-bottom: 20px;
     margin-left: 30px;
     margin-top: 20px;
+}
+.btn{
+background-color: $title-sometext-color;
+border-color: $title-sometext-color;
 }

@@ -117,10 +117,13 @@ footer .textfooter {
 }
 
 .tituloNov {
-  color: #a675a1;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+  border-radius: 20px;
+  background-color: #b8336a;
+  padding: 20px;
 }
 
 .textosub {
@@ -197,6 +200,11 @@ footer .textfooter {
   margin-bottom: 20px;
   margin-left: 30px;
   margin-top: 20px;
+}
+
+.btn {
+  background-color: #b8336a;
+  border-color: #b8336a;
 }
 
 /*# sourceMappingURL=style.css.map */
