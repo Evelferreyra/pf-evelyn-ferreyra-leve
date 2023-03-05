@@ -9,6 +9,11 @@ body {
   padding-bottom: 150px;
 }
 
+/* estilo en contenido general*/
+h1 {
+  color: #b8336a;
+}
+
 .navbar-dark {
   background-color: black;
 }
@@ -174,12 +179,17 @@ footer .textfooter {
   padding: 30px;
   width: 60%;
   display: flex;
+  align-items: center;
   margin-right: 50px;
   border-radius: 10%;
   height: 490px;
   margin-left: 50px;
   margin-top: 100px;
   margin-bottom: 30px;
+}
+.contenidoContacto .titulocontacto {
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* tienda */
