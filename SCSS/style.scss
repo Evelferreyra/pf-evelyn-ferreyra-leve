@@ -6,6 +6,7 @@
 $title-sometext-color: #b8336a;
 $sub-title-color: #8c7a6b;
 $background-color-footnav: black;
+$another-text-color: #a675a1;
 
 
 
@@ -20,7 +21,15 @@ body {
 h1{
     color: $title-sometext-color;
 }
-
+p{
+    color: $sub-title-color;
+    font-size: 16px;
+    
+}
+h3{
+    font-size: 21px;
+    font-style: italic;
+}
 .navbar-dark {
     background-color: black;
 
@@ -85,6 +94,7 @@ h1{
     background-color: #b8336a;
     font-weight: bold;
 }
+
 
 /* elementos del footer con subs*/
 footer {
@@ -250,4 +260,8 @@ margin-bottom: 20px;
 .btn{
 background-color: $title-sometext-color;
 border-color: $title-sometext-color;
+}
+.card-title{
+    font-size: 30px;
+    color: #b7999c;
 }

@@ -14,6 +14,16 @@ h1 {
   color: #b8336a;
 }
 
+p {
+  color: #8c7a6b;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 21px;
+  font-style: italic;
+}
+
 .navbar-dark {
   background-color: black;
 }
@@ -215,6 +225,11 @@ footer .textfooter {
 .btn {
   background-color: #b8336a;
   border-color: #b8336a;
+}
+
+.card-title {
+  font-size: 30px;
+  color: #b7999c;
 }
 
 /*# sourceMappingURL=style.css.map */
