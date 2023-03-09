@@ -232,4 +232,20 @@ footer .textfooter {
   color: #b7999c;
 }
 
+/*nosotros*/
+.contenidonos {
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.h1nos {
+  background-color: #b8336a;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
