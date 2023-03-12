@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,28 +8,44 @@ $sub-title-color: #8c7a6b;
 $background-color-footnav: black;
 $another-text-color: #a675a1;
 
+@media screen and (max-width: 600px) {
+    .conttienda {
+        width: 60%;
+    }
+
+    
+}
+html{
+    height: 100%;
+}
 
 
 body {
     font-family: 'Raleway', sans-serif;
     position: relative;
     padding-bottom: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 
 /* estilo en contenido general*/
-h1{
+h1 {
     color: $title-sometext-color;
 }
-p{
+
+p {
     color: $sub-title-color;
     font-size: 16px;
-    
+
 }
-h3{
+
+h3 {
     font-size: 21px;
     font-style: italic;
 }
+
 .navbar-dark {
     background-color: black;
 
@@ -48,18 +64,18 @@ h3{
         border-radius: 20px;
     }
 
-    .nav-link:hover{
-        
-        background-color: white ;
+    .nav-link:hover {
+
+        background-color: white;
         color: #b7999c;
 
     }
-    .nav-link.active
-    {
-        background-color: white ;
+
+    .nav-link.active {
+        background-color: white;
         color: #b7999c;
-        
-        
+
+
     }
 }
 
@@ -76,6 +92,7 @@ h3{
     margin-right: 30px;
     margin-bottom: 20px;
     display: flex;
+    
 }
 
 .item {
@@ -87,8 +104,9 @@ h3{
     margin-block-end: 20px;
 
 }
-.h1index{
-    text-align: center; 
+
+.h1index {
+    text-align: center;
     color: white;
     border-radius: 20px;
     background-color: #b8336a;
@@ -98,14 +116,14 @@ h3{
 
 /* elementos del footer con subs*/
 footer {
-
+position: relative;
     background-color: #b7999c;
     height: 150px;
     width: 100%;
-    position: absolute;
+   
     bottom: 0;
-    
-    
+margin-top: auto;
+
 
     .alineacionapps {
         display: flex;
@@ -130,6 +148,7 @@ footer {
 .formulario {
     background-color: black;
     height: 250px;
+   
 
     .elementosfooter {
         margin-inline: 30px;
@@ -160,6 +179,7 @@ footer {
         color: #a675a1;
     }
 }
+
 .tituloNov {
     color: white;
     font-size: 40px;
@@ -193,12 +213,14 @@ footer {
     margin-bottom: 30px;
     border-radius: 10%;
 }
-.iconoGris{
-width: 100px;
-margin: auto;
-display: block;
-margin-bottom: 15px;
+
+.iconoGris {
+    width: 100px;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
 }
+
 .alineacionapps {
     display: flex;
     justify-content: center;
@@ -208,14 +230,16 @@ margin-bottom: 15px;
     width: 50px;
     margin: 8px;
 }
+
 .prueba {
     display: flex;
-    
+
 }
-.contenidoContacto{
+
+.contenidoContacto {
     text-align: center;
     background: white;
-    
+
     padding: 30px;
     width: 60%;
     display: flex;
@@ -226,28 +250,30 @@ margin-bottom: 15px;
     margin-left: 50px;
     margin-top: 100px;
     margin-bottom: 30px;
- .titulocontacto {
-    font-weight: bold;
-    font-style: italic;
- }
+
+    .titulocontacto {
+        font-weight: bold;
+        font-style: italic;
+    }
 }
 
 
 
 /* tienda */
 
-.maintienda{
-margin-top: 10px;
-margin-left: 30px;
-margin-right: 30px;
-margin-bottom: 20px;
+.maintienda {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
 
 
 }
-.conttienda{
+
+.conttienda {
     display: flex;
     margin: auto;
-    
+
 
 }
 
@@ -257,24 +283,27 @@ margin-bottom: 20px;
     margin-left: 30px;
     margin-top: 20px;
 }
-.btn{
-background-color: $title-sometext-color;
-border-color: $title-sometext-color;
+
+.btn {
+    background-color: $title-sometext-color;
+    border-color: $title-sometext-color;
 }
-.card-title{
+
+.card-title {
     font-size: 30px;
     color: #b7999c;
 }
 
 /*nosotros*/
-.contenidonos{
+.contenidonos {
     margin-top: 80px;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 20px;
 
 }
-.h1nos{
+
+.h1nos {
     background-color: $title-sometext-color ;
     border-radius: 20px;
     color: white;
