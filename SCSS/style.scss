@@ -199,12 +199,14 @@ margin-top: auto;
 }
 
 /*PAGINA CONTACTO*/
-.contacto {
+/*.contacto {
     background-color: #b7999c;
-
-}
+ flex-wrap: wrap;
+ 
+}*/
 
 .formcont {
+    flex: 1;
     width: 450px;
     height: 490px;
     display: flex;
@@ -212,6 +214,7 @@ margin-top: auto;
     margin-top: 100px;
     margin-bottom: 30px;
     border-radius: 10%;
+    min-width: 300px;
 }
 
 .iconoGris {
@@ -233,10 +236,12 @@ margin-top: auto;
 
 .prueba {
     display: flex;
-
+flex-wrap: wrap;
+height: calc(100vh - 150px - 100px);
 }
 
-.contenidoContacto {
+.contenidoContacto{
+    flex: 2;
     text-align: center;
     background: white;
 
@@ -250,7 +255,7 @@ margin-top: auto;
     margin-left: 50px;
     margin-top: 100px;
     margin-bottom: 30px;
-
+    min-width: 300px;
     .titulocontacto {
         font-weight: bold;
         font-style: italic;
