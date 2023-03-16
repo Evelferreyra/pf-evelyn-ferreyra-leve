@@ -13,10 +13,11 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: "Raleway", sans-serif;
   position: relative;
   padding-bottom: 150px;
-  height: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -94,12 +95,12 @@ h3 {
 
 /* elementos del footer con subs*/
 footer {
-  position: relative;
+  position: absolute;
+  margin-top: auto;
   background-color: #b7999c;
   height: 150px;
   width: 100%;
   bottom: 0;
-  margin-top: auto;
 }
 footer .alineacionapps {
   display: flex;
@@ -198,7 +199,7 @@ footer .textfooter {
 .prueba {
   display: flex;
   flex-wrap: wrap;
-  height: calc(100vh - 150px - 100px);
+  min-height: 100%;
 }
 
 .contenidoContacto {
