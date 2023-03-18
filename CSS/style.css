@@ -1,3 +1,4 @@
+@import url(_footer.sass);
 * {
   margin: 0;
   padding: 0;
@@ -162,11 +163,6 @@ footer .textfooter {
 }
 
 /*PAGINA CONTACTO*/
-/*.contacto {
-    background-color: #b7999c;
- flex-wrap: wrap;
-
-}*/
 .formcont {
   flex: 1;
   width: 450px;

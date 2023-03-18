@@ -15,6 +15,7 @@ $another-text-color: #a675a1;
 
     
 }
+@import url(_footer.sass);
 html{
     height: 100%;
 }
@@ -200,11 +201,7 @@ footer {
 }
 
 /*PAGINA CONTACTO*/
-/*.contacto {
-    background-color: #b7999c;
- flex-wrap: wrap;
- 
-}*/
+
 
 .formcont {
     flex: 1;
