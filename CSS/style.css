@@ -23,6 +23,10 @@ body {
   flex-direction: column;
 }
 
+.logo {
+  width: 50px;
+}
+
 /* estilo en contenido general*/
 h1 {
   color: #b8336a;
@@ -263,6 +267,10 @@ footer .textfooter {
   color: white;
   text-align: center;
   font-weight: bold;
+}
+
+.textnos {
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

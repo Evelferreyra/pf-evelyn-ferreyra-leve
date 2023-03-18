@@ -12,9 +12,10 @@ $another-text-color: #a675a1;
     .conttienda {
         width: 60%;
     }
-
     
 }
+
+    
 @import url(_footer.sass);
 html{
     height: 100%;
@@ -32,6 +33,10 @@ body {
     
 }
 
+
+.logo{
+    width: 50px;
+}
 
 /* estilo en contenido general*/
 h1 {
@@ -313,4 +318,8 @@ min-height: 100%;
     color: white;
     text-align: center;
     font-weight: bold;
+}
+
+.textnos{
+    font-size: 25px;
 }
